@@ -261,7 +261,7 @@ D['c']
 
 **Sets** correspond to our notion of sets in math.  They are collections of objects without duplicates.  We use curly braces to denote them and commas to separate elements.  As with dictionaries, a set has no fixed ordering.  We say that sets and dictionaries are **nonsequential collections**.
 
-Be careful that empty braces `{}` indicates an empty dictionary and not an empty set.  Here is an example of a newly created set.  Some items are added.  Notice that the duplicates have no effect on the value as its printed.
+Here is an example of a newly created set.  Some items are added.  Notice that the duplicates have no effect on the value as its printed.
 
 ```python {cmd}
 s = {2,1}
@@ -273,8 +273,7 @@ s.add(2)
 print(s)
 ```
 
-Be careful, `{}` is an empty dictionary.
-If you want an empty set, you would write `set()`.
+Be careful, `{}` is an empty dictionary, not an empty set. If you want an empty set, you would write `set()`.
 
 ## Some common things to do with collections
 
